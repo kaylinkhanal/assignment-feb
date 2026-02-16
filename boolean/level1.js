@@ -13,5 +13,5 @@ if(10*a>=b)
 else{console.log("10*a is less than b");}
 
 // Q3. check if b is divisible by a
-const isdivisible=(a,b)=>b%a===0;
+const isdivisible=(a,b)=>b%a===0;:
 console.log(isdivisible(a,b));
