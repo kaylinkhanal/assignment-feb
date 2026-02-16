@@ -9,6 +9,6 @@ console.log(arr)
 arr.push(55)
 console.log(arr)
 
-// Q3. Find the length of the array, expected output is 4
+// Q3. Find the length of the array, expected output is 5
 console.log(arr.length)
 
