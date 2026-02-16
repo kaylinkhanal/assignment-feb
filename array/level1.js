@@ -3,11 +3,13 @@ const arr  = [1,2,4,12,14]
 // hint use pop() method
 const result = arr.pop()
 console.log(result)
+console.log(arr)
 
 
 // Q2. Add new value 55 to the end of the array, hint use push() method
-const resultpus =arr.push()
+const resultpus =arr.push(55)
 console.log(resultpus)
+console.log(arr)
 
 
 
