@@ -14,5 +14,5 @@ console.log(percentage)
 
 const scoresOptional = [32,34]
 // Q3. merge scores and scoresOptional into a new array called allScores, expected output is [32,34,50,32,34]
-scores.push(scoresOptional)
-console.log (scores)
+const newarray = scores.concat(scoresOptional)
+console.log (newarray)
