@@ -1,6 +1,6 @@
 /**Q1: The Tax Calculator Function Create a function called calculateTotal that takes a price and a taxRate. 
   It should return the total price rounded to 2 decimal places. Example: calculateTotal(100, 0.15) should return 115.00.*/
-
+  
 
 
 
