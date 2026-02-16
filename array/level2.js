@@ -3,11 +3,7 @@ const scores = [32,34,50]
 // Q1. calculate the total score and assign it to a variable called totalScore
 // hint: scores[0]+ scores[1]+ ...
 
-let totalScore = 0
-for (let idx = 0; idx < scores.length; idx++) {
-  totalScore += scores[idx]
-}
-
+let totalScore = scores[0]+scores[1]+scores[2]
 console.log(totalScore)
 
 
