@@ -3,11 +3,21 @@ const scores = [32,34,50]
 // Q1. calculate the total score and assign it to a variable called totalScore
 // hint: scores[0]+ scores[1]+ ...
 
+let totalScore = 0
+for (let idx = 0; idx < scores.length; idx++) {
+  totalScore += scores[idx]
+}
+
+console.log(totalScore)
 
 
 //Q2. calcuate the percentage of the total score, expected output is 72.22%, total score is out of 150
-
+let maxscore = 150
+ let percentage = (totalScore/maxscore)*100;
+ console.log(percentage +"%")
 
 
 const scoresOptional = [32,34]
 // Q3. merge scores and scoresOptional into a new array called allScores, expected output is [32,34,50,32,34]
+const allScores=scores.concat(scoresOptional)
+console.log(allScores)
