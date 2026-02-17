@@ -9,9 +9,9 @@ console.log(output)
 const capital = arr.map(arr => arr.toUpperCase());
 console.log(capital);
 
-
 const scores  = "32,42,53"
 
 // Q3. Expected output is [32,42,53]
+
 const output1 = scores.split(',').map(Number);
 console.log(output1)
