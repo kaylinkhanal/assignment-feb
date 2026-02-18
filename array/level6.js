@@ -28,7 +28,7 @@ console.log(scores.filter(loop2))
 
 function loop3(items3){
 
-    if(items3>=4){
+    if(items3>4){
         return items3 + 10
     }
     else{
