@@ -10,15 +10,27 @@ function loop(item){
     }
 }
 
-console.log(scores.map(loop))
+console.log(scores.filter(loop))
 
 
 //Q2. use filter to remove all the numbers whose value is less than 4. Expected output is [6,5,4]
+function filter(item){
+    if(item>=4){
+        return item
+    }
+}
+console.log(scores.filter(filter))
 
 
 
 //Q3. use map to create a new array that can add 10 to each item if they are greater thatn 4, 
 // otherwise keep the same value. Expected output is [16,15,1,3,14,2]
 
-
+function arr2(item){
+    if (item>4){
+        return item+10
+    }
+    return item
+}
+console.log(scores.map(arr2))
 
