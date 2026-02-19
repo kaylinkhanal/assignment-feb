@@ -10,6 +10,12 @@ function loop(item){
 
 console.log(scores.filter(loop))
 
+
+
+
+
+
+
 const userScores = [['ram',60],['shyam',50],['hari',13]]
 
 
