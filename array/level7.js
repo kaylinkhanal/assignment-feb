@@ -23,3 +23,17 @@ console.log(userScores.filter(filterScore))
 
 // Q2. use filter loop to loop over each element and only keep the elements whose score is greater than 20,
 //  expected output is [['ram',60],['shyam',50]]
+
+
+// function test(){
+//     return "hi"
+// }
+
+
+// const test=()=>{
+//     return "hi"
+// }
+
+// const test=()=>{
+//     return "hi"
+// }
