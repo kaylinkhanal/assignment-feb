@@ -17,3 +17,11 @@ const products = [
 // Q5. Sort the products array in descending order based on price.
 
 // Q6. Create a new array that contains only product names.
+ function test(){
+  return "hello"
+ }
+
+   
+ const test=()=>{
+  return "hello"
+ }
