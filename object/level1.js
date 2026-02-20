@@ -8,7 +8,7 @@ const scores = {
 
 //Q1. calculate the percentage of total marks obtained by the student, expected output is 62.67%
 // total of each sub is 50
-const totalPercentage= ((scores.math+ scores.science+ scores.computer)/50)*100
+const totalPercentage= ((scores.math + scores.science + scores.computer)/150)*100
 console.log(`${totalPercentage}%`)
 
 
