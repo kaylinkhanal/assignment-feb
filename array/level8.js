@@ -7,8 +7,8 @@ let sum = 0
 num.forEach((item)=>{
     if(item%2==0){
         sum=sum+item
-        return sum
-    }
+       
+    } 
 })
 console.log(sum);
 
