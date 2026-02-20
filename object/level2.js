@@ -18,7 +18,9 @@ const user = {
 
 // Q1. output should be '123 Main St, Anytown, USA'
 
-
+const user1 = Object.values(user.address.primaryAddress)
+console.log(user1.join(', '))
 
 //Q2. output should be 2 (total number of values in address object )
 // hint: get the values of address object and find the length of it excluding null
+console.log(Object.values(user.address).filter(Boolean).length)
