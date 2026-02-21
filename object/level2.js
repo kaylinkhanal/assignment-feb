@@ -18,7 +18,7 @@ const user = {
 
 // Q1. output should be '123 Main St, Anytown, USA'
 
-console.log((Object.values(user.address.primaryAddress)).toLocaleString());
+console.log((Object.values(user.address.primaryAddress)).join());
 
 //Q2. output should be 2 (total number of values in address object )
 // hint: get the values of address object and find the length of it excluding null

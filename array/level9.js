@@ -5,5 +5,12 @@ const userCarts = [
     {orderid: 4, product: 'headphones', price: 3000, quantity: 3},
 ]
 
-
+const spendings=userCarts.map((item)=>{
+    return item.price*item.quantity
+})
+console.log(spendings);
+const totalSpending=spendings.reduce((acc,current)=>{
+return acc+current
+},0)
+console.log(totalSpending);
 //Q1. use reduce loop to calculate the total amount spent by the user
