@@ -18,9 +18,12 @@ const user = {
 
 // Q1. output should be '123 Main St, Anytown, USA'
 const primary = user.address.primaryAddress;
-const output = `${primary.street}, ${primary.city}, ${primary.country}`;
-
+const output = `'${primary.street}, ${primary.city}, ${primary.country}'`;
+console.log(output);
 
 
 //Q2. output should be 2 (total number of values in address object )
 // hint: get the values of address object and find the length of it excluding null
+const count = Object.values(user.address).filter(value => value !== null).length;
+
+console.log(count);
