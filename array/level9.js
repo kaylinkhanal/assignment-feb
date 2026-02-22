@@ -7,3 +7,8 @@ const userCarts = [
 
 
 //Q1. use reduce loop to calculate the total amount spent by the user
+let sum = 0
+ userCarts.forEach((item, id)=>{
+    sum = sum +(item.price * item.quantity)
+ })
+ console.log(sum)
