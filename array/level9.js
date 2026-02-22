@@ -7,3 +7,9 @@ const userCarts = [
 
 
 //Q1. use reduce loop to calculate the total amount spent by the user
+const totalAmount = userCarts.reduce((acc, item)=>{
+    return acc + (item.price * item.quantity)
+}, 0)
+
+console.log(totalAmount)
+
