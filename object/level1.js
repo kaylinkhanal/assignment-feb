@@ -15,6 +15,9 @@ console.log(totalsum)
 const percentage = (totalsum / 150) * 100;
 console.log(percentage)
 
+const formattedPercentage = percentage.toFixed(2) + "%";
+console.log(formattedPercentage);
+
 
 
 
