@@ -20,6 +20,9 @@ const obj = {
 //         "country": "USA"
 //     },
 // }
+delete obj.name
+console.log(obj)
+
 
 
 
@@ -33,7 +36,11 @@ const obj = {
 //         "country": "USA"
 //     },
 // }
+obj.age = 50
+console.log(obj)
 
 
 
 // Q3. convert values to arrray, output is : [50, '123 Main St', 'Anytown', 'USA']
+const valuesArray = [obj.age, obj.address.street, obj.address.city, obj.address.country]
+console.log(valuesArray)
