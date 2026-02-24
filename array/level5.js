@@ -7,9 +7,11 @@ const products = [
 ];
 
 // Q1. Create a new array that contains only products with price greater than 300.
+const expensiveProducts = products.filter(product => product.price > 300);
+console .log(expensiveProducts);
 
 // Q2. Calculate the total price of all products.
-
+const total=
 // Q3. Find the most expensive product.
 
 // Q4. Add a new product { name: "Mouse", price: 50 } at the beginning of the array.
@@ -17,11 +19,10 @@ const products = [
 // Q5. Sort the products array in descending order based on price.
 
 // Q6. Create a new array that contains only product names.
- function test(){
-  return "hello"
- }
+ 
 
-   
- const test=()=>{
-  return "hello"
- }
+
+
+
+
+
