@@ -16,7 +16,7 @@ console.log(sum)
 const newNum = num.map((item)=>{
     return item * 2
 }).filter((item)=>{
-    return item  % 22 === 0
+    return item  % 22 ===0
 })
 
 console.log(newNum)
